@@ -12,7 +12,7 @@ import OfferCard from "./OfferCard";
 import MenuCategory from "./MenuCategory";
 // import MenuSearch from "./MenuSearch";
 import { useSelector } from "react-redux";
-import MyContext from "../Utils/MyContext";
+import MyContext from "../utils/MyContext";
 import ResetCart from "./ResetCart";
 import RestaurantMenuShimmering from "./RestaurantMenuShimmering";
 

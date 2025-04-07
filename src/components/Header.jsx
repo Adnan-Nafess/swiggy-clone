@@ -4,7 +4,7 @@ import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import logo from "../assets/logo.jpeg";
 import LocationSearch from "./LocationSearch";
 import { useDispatch, useSelector } from "react-redux";
-import { locSearch } from "../Utils/locationSearchVisibilitySlice";
+import { locSearch } from "../utils/locationSearchVisibilitySlice";
 import { Link, NavLink } from "react-router-dom";
 const Header = () => {
   const dispatch = useDispatch();

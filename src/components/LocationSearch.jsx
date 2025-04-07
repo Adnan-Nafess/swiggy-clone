@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { GET_LOCATION_API_URL, apiKey } from "../helpers/Constant";
-import { locSearch } from "../Utils/locationSearchVisibilitySlice";
-import { updateLocation } from "../Utils/locationSlice";
+import { locSearch } from "../utils/locationSearchVisibilitySlice";
+import { updateLocation } from "../utils/locationSlice";
 import locationUnservicable from "../assets/location_unserviceable.webp";
 
 const LocationSearch = ({ childState, setChildState }) => {

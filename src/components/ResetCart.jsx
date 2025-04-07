@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { clearCart } from "../Utils/cartSlice";
-import MyContext from "../Utils/MyContext";
+import { clearCart } from "../utils/cartSlice";
+import MyContext from "../utils/MyContext";
 
 const ResetCart = () => {
   const dispatch = useDispatch();

@@ -9,8 +9,8 @@ import useRestaurantMenu from "../Hooks/useRestaurantMenu";
 import { Link, useParams } from "react-router-dom";
 import Item from "./Item"; // Import the Item component
 import { useDispatch } from "react-redux";
-import { addItems } from "../Utils/cartSlice";
-import MyContext from "../Utils/MyContext";
+import { addItems } from "../utils/cartSlice";
+import MyContext from "../utils/MyContext";
 
 const MenuSearch = () => {
   const { id } = useParams();

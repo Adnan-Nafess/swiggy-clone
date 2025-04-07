@@ -5,8 +5,8 @@ import { faCircle, faPlay, faStar } from "@fortawesome/free-solid-svg-icons";
 import { PiShootingStarFill } from "react-icons/pi";
 import { MdLocalOffer } from "react-icons/md";
 import { useDispatch, useSelector } from "react-redux";
-import MyContext from "../Utils/MyContext";
-import { addItems, removeItems } from "../Utils/cartSlice";
+import MyContext from "../utils/MyContext";
+import { addItems, removeItems } from "../utils/cartSlice";
 
 const Item = ({
   name,

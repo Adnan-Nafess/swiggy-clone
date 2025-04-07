@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import emptyCart from "../assets/emptyCart.webp";
 import { Link } from "react-router-dom";
-import { addItems, removeItems, clearCart } from "../Utils/cartSlice";
+import { addItems, removeItems, clearCart } from "../utils/cartSlice";
 import { current } from "@reduxjs/toolkit";
 import Success from "./Success";
 import { RES_CARD_IMG_CDN_URL } from "../helpers/Constant";
